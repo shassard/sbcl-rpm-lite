@@ -27,9 +27,9 @@ Source10: https://downloads.sourceforge.net/sourceforge/sbcl/sbcl-1.0.15-x86-lin
 %endif
 
 ## x86_64 section
+Source20: https://downloads.sourceforge.net/sourceforge/sbcl/sbcl-2.3.0-x86-64-linux-binary.tar.bz2
 %ifarch x86_64
 %define sbcl_arch x86-64
-Source20: https://downloads.sourceforge.net/sourceforge/sbcl/sbcl-2.3.0-x86-64-linux-binary.tar.bz2
 %define sbcl_bootstrap_src -b 20
 %define sbcl_bootstrap_dir sbcl-2.3.0-x86-64-linux
 %endif
@@ -68,9 +68,9 @@ Source60: https://downloads.sourceforge.net/sourceforge/sbcl/sbcl-1.2.0-armhf-li
 %endif
 
 ## aarch64 section
+Source70: https://downloads.sourceforge.net/sourceforge/sbcl/sbcl-1.4.2-arm64-linux-binary.tar.bz2
 %ifarch aarch64
 %define sbcl_arch arm64
-Source70: https://downloads.sourceforge.net/sourceforge/sbcl/sbcl-1.4.2-arm64-linux-binary.tar.bz2
 %define sbcl_bootstrap_src -b 70
 %define sbcl_bootstrap_dir sbcl-1.4.2-arm64-linux
 %endif
