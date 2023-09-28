@@ -7,8 +7,8 @@
 
 Name: 	 sbcl
 Summary: Steel Bank Common Lisp
-Version: 2.3.8
-Release: 2%{?dist}
+Version: 2.3.9
+Release: 1%{?dist}
 
 License: BSD
 URL:	 https://sbcl.sourceforge.net/
@@ -207,6 +207,9 @@ popd
 %{_prefix}/lib/sbcl/sbcl.core
 
 %changelog
+* Thu Sep 28 2023 Stephen Hassard <steve@hassard.net> - 2.3.9-1
+- Bump to 2.3.9
+
 * Sun Sep 24 2023 Stephen Hassard <steve@hassard.net> - 2.3.8-2
 - Fix aarch64 builds
 
